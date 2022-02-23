@@ -1,0 +1,60 @@
+body {
+    
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	font-size: 16px;
+    position: relative;
+    width: 1000px;
+    height: 746px;
+    background: linear-gradient(180deg, rgba(0, 41, 255, 0.59) 0%, #FF0000 100%);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+  
+
+
+.card {
+    position: absolute;
+    width: 684px;
+    height: 407px;
+    left: 385px;
+    top: 161px;
+    background: linear-gradient(180deg, #000AFF 0%, #201717 100%);
+    border-radius: 50px;
+    box-shadow: 5px -5px 20px #534c4c;
+}
+
+.photo-card {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 50px;
+    top: 100px;
+}
+
+.photo {
+    border-radius: 50%;
+}
+
+.menu {
+    display: flex;
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 200px;
+    top: 50px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 0px;
+}
+
+.menu li {
+    margin-right: 40px;
+}
